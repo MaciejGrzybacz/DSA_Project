@@ -25,6 +25,7 @@ endfunction()
 ## Add algorithms here
 add_algorithm(graph search)
 add_algorithm(graph dijkstra)
+add_algorithm(sorting sort)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -42,5 +43,6 @@ endfunction()
 ## Add tests here
 add_dsa_test(graph search)
 add_dsa_test(graph dijkstra)
+add_dsa_test(sorting sort)
 
 enable_testing()

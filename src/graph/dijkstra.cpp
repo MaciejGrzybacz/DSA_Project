@@ -1,12 +1,10 @@
-#include <climits>
-#include <queue>
 #include "dijkstra.h"
 
 std::vector<int> Graph::dijkstra(int start) const {
-    if(_vertices == 0) return {};
+    if(_size == 0) return {};
 
-    std::vector<int> dist(_vertices, INT_MAX);
-    std::vector<bool> visited(_vertices, false);
+    std::vector<int> dist(_size, INT_MAX);
+    std::vector<bool> visited(_size, false);
     std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<>> pq;
 
     pq.push({0, start});
@@ -31,9 +29,9 @@ std::vector<int> Graph::dijkstra(int start) const {
 }
 
 int Graph::dijkstra(int start, int end) const {
-    if (start >= _vertices || end >= _vertices) return -1;
+    if (start >= _size || end >= _size) return -1;
 
-    std::vector<int> dist(_vertices, INT_MAX);
+    std::vector<int> dist(_size, INT_MAX);
     std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<>> pq;
 
     pq.push({0, start});

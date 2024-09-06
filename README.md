@@ -43,6 +43,7 @@ DSA_Project/
 │       ├── dijkstra.h/cpp
 │       ├── search.h/cpp
 │   ├── sorting/
+│       ├── sort.h/cpp
 │   ├── string_algorithms/
 │   └── data_structures/
 ├── tests/
@@ -51,6 +52,7 @@ DSA_Project/
 │       ├── dijkstra_test.cpp
 │       ├── search_test.cpp
 │   ├── sorting/
+│       ├── sort_test.cpp
 │   ├── string_algorithms/
 │   └── data_structures/
 └── README.md
@@ -74,6 +76,9 @@ Currently, the project includes the following implementations:
 ### Algorithms
 - Graph
     - Dijkstra's Algorithm
+    - Breadth-First Search (BFS)
+    - Iterative Depth-First Search (DFS)
+    - Recursive Depth-First Search (DFS)
 
 ### Data Structures
 - (To be added)
@@ -92,15 +97,13 @@ Currently, the project includes the following implementations:
 - Radix Sort
 
 #### Graph Algorithms
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
 - Bellman-Ford Algorithm
 - Floyd-Warshall Algorithm
 - Kruskal's Algorithm
 - Prim's Algorithm
+- Tarjan's Algorithm
 - Topological Sort
 - Strongly Connected Components (SCC)
-- Dijkstra's Algorithm
 - A* Search Algorithm
 - Travelling Salesman Problem (TSP)
 - Maximum Flow (Ford-Fulkerson Algorithm)
@@ -139,7 +142,6 @@ Currently, the project includes the following implementations:
 - Trie
 - Disjoint Set (Union-Find)
 - Fenwick Tree (Binary Indexed Tree)
-
 
 ## Contributing
 
