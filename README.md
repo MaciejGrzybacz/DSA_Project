@@ -79,6 +79,12 @@ Currently, the project includes the following implementations:
     - Breadth-First Search (BFS)
     - Iterative Depth-First Search (DFS)
     - Recursive Depth-First Search (DFS)
+- Sorting
+    - Bubble Sort
+    - Quick Sort
+    - Merge Sort
+    - Heap Sort
+    - Bucket Sort
 
 ### Data Structures
 - (To be added)
@@ -87,33 +93,22 @@ Currently, the project includes the following implementations:
 
 ### Algorithms
 
-#### Sorting Algorithms
-- Bubble Sort
-- Quick Sort
-- Merge Sort
-- Heap Sort
-- Insertion Sort
-- Selection Sort
-- Radix Sort
-
 #### Graph Algorithms
-- Bellman-Ford Algorithm
-- Floyd-Warshall Algorithm
 - Kruskal's Algorithm
 - Prim's Algorithm
 - Tarjan's Algorithm
 - Topological Sort
 - Strongly Connected Components (SCC)
+- Bellman-Ford Algorithm
+- Floyd-Warshall Algorithm
 - A* Search Algorithm
 - Travelling Salesman Problem (TSP)
 - Maximum Flow (Ford-Fulkerson Algorithm)
 - Network Flow (Edmonds-Karp Algorithm)
 
 #### Dynamic Programming
-- Fibonacci Sequence
 - Longest Common Subsequence
 - Knapsack Problem
-- Coin Change Problem
 - Longest Increasing Subsequence
 - Maximum Subarray Sum
 - Minimum Cost Path
@@ -139,20 +134,8 @@ Currently, the project includes the following implementations:
 - Red-Black Tree
 - Heap
 - Hash Table
-- Trie
 - Disjoint Set (Union-Find)
 - Fenwick Tree (Binary Indexed Tree)
-
-## Contributing
-
-Contributions to this project are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch for your feature
-3. Implement your feature or bug fix
-4. Add tests for your implementation
-5. Submit a pull request
-
 Please ensure your code adheres to the existing style and passes all tests.
 
 ## License
