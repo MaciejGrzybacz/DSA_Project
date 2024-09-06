@@ -11,8 +11,6 @@ This project is a comprehensive collection of classic data structures and algori
 - [Building and Testing](#building-and-testing)
 - [Implemented Algorithms and Data Structures](#implemented-algorithms-and-data-structures)
 - [Planned Implementations](#planned-implementations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
