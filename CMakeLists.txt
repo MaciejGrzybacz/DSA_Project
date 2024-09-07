@@ -26,6 +26,7 @@ endfunction()
 add_algorithm(graph search)
 add_algorithm(graph dijkstra)
 add_algorithm(sorting sort)
+add_algorithm(graph topological_sort)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -44,5 +45,6 @@ endfunction()
 add_dsa_test(graph search)
 add_dsa_test(graph dijkstra)
 add_dsa_test(sorting sort)
+add_dsa_test(graph topological_sort)
 
 enable_testing()
