@@ -46,6 +46,7 @@ DSA_Project/
 │   ├── string_algorithms/
 │   └── data_structures/
 │       ├── union_find.h/cpp
+│       ├── linked_list.h/cpp
 ├── tests/
 │   ├── dynamic_programming/
 │   ├── graph/
@@ -57,6 +58,7 @@ DSA_Project/
 │   ├── string_algorithms/
 │   └── data_structures/
 │       ├── union_find_test.cpp
+│       ├── linked_list_test.cpp
 └── README.md
 ```
 
@@ -91,6 +93,7 @@ Currently, the project includes the following implementations:
 
 ### Data Structures
 - Disjoint Set (Union-Find)
+- Linked List
 
 ## Planned Implementations
 
@@ -127,7 +130,6 @@ Currently, the project includes the following implementations:
 - Suffix Array and LCP Array
 
 ### Data Structures
-- Linked List
 - Stack
 - Queue
 - Binary Tree
