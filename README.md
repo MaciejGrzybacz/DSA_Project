@@ -40,6 +40,7 @@ DSA_Project/
 │   ├── graph/
 │       ├── dijkstra.h/cpp
 │       ├── search.h/cpp
+│       ├── topological_sort.h/cpp
 │   ├── sorting/
 │       ├── sort.h/cpp
 │   ├── string_algorithms/
@@ -49,6 +50,7 @@ DSA_Project/
 │   ├── graph/
 │       ├── dijkstra_test.cpp
 │       ├── search_test.cpp
+│       ├── topological_sort_test.cpp
 │   ├── sorting/
 │       ├── sort_test.cpp
 │   ├── string_algorithms/
@@ -77,6 +79,7 @@ Currently, the project includes the following implementations:
     - Breadth-First Search (BFS)
     - Iterative Depth-First Search (DFS)
     - Recursive Depth-First Search (DFS)
+    - Topological Sort
 - Sorting
     - Bubble Sort
     - Quick Sort
@@ -95,7 +98,6 @@ Currently, the project includes the following implementations:
 - Kruskal's Algorithm
 - Prim's Algorithm
 - Tarjan's Algorithm
-- Topological Sort
 - Strongly Connected Components (SCC)
 - Bellman-Ford Algorithm
 - Floyd-Warshall Algorithm

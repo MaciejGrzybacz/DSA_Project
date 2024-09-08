@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../../src/graph/search.h"
+#include "src/graph/search.h"
 
 class GraphSearchTest : public ::testing::Test {
 protected:
