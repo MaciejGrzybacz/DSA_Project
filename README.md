@@ -42,9 +42,10 @@ DSA_Project/
 │       ├── search.h/cpp
 │       ├── topological_sort.h/cpp
 │   ├── sorting/
-│       ├── sort.h/cpp
+│       └── sort.h/cpp
 │   ├── string_algorithms/
 │   └── data_structures/
+│       ├── union_find.h/cpp
 ├── tests/
 │   ├── dynamic_programming/
 │   ├── graph/
@@ -55,6 +56,7 @@ DSA_Project/
 │       ├── sort_test.cpp
 │   ├── string_algorithms/
 │   └── data_structures/
+│       ├── union_find_test.cpp
 └── README.md
 ```
 
@@ -88,7 +90,7 @@ Currently, the project includes the following implementations:
     - Bucket Sort
 
 ### Data Structures
-- (To be added)
+- Disjoint Set (Union-Find)
 
 ## Planned Implementations
 
@@ -134,9 +136,7 @@ Currently, the project includes the following implementations:
 - Red-Black Tree
 - Heap
 - Hash Table
-- Disjoint Set (Union-Find)
 - Fenwick Tree (Binary Indexed Tree)
-Please ensure your code adheres to the existing style and passes all tests.
 
 ## License
 
