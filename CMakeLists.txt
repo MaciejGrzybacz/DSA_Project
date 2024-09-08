@@ -28,6 +28,7 @@ add_algorithm(graph dijkstra)
 add_algorithm(sorting sort)
 add_algorithm(graph topological_sort)
 add_algorithm(data_structures union_find)
+add_algorithm(data_structures linked_list)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -48,5 +49,6 @@ add_dsa_test(graph dijkstra)
 add_dsa_test(sorting sort)
 add_dsa_test(graph topological_sort)
 add_dsa_test(data_structures union_find)
+add_dsa_test(data_structures linked_list)
 
 enable_testing()
