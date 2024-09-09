@@ -47,6 +47,8 @@ DSA_Project/
 │   └── data_structures/
 │       ├── union_find.h/cpp
 │       ├── linked_list.h/cpp
+│       ├── stack.h/cpp
+│       ├── queue.h/cpp
 ├── tests/
 │   ├── dynamic_programming/
 │   ├── graph/
@@ -94,6 +96,8 @@ Currently, the project includes the following implementations:
 ### Data Structures
 - Disjoint Set (Union-Find)
 - Linked List
+- Stack
+- Queue
 
 ## Planned Implementations
 
@@ -130,8 +134,6 @@ Currently, the project includes the following implementations:
 - Suffix Array and LCP Array
 
 ### Data Structures
-- Stack
-- Queue
 - Binary Tree
 - Binary Search Tree
 - AVL Tree

@@ -29,6 +29,8 @@ add_algorithm(sorting sort)
 add_algorithm(graph topological_sort)
 add_algorithm(data_structures union_find)
 add_algorithm(data_structures linked_list)
+add_algorithm(data_structures stack)
+add_algorithm(data_structures queue)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -50,5 +52,7 @@ add_dsa_test(sorting sort)
 add_dsa_test(graph topological_sort)
 add_dsa_test(data_structures union_find)
 add_dsa_test(data_structures linked_list)
+add_dsa_test(data_structures stack)
+add_dsa_test(data_structures queue)
 
 enable_testing()
