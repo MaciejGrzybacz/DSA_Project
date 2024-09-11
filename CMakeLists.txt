@@ -31,6 +31,7 @@ add_algorithm(data_structures union_find)
 add_algorithm(data_structures linked_list)
 add_algorithm(data_structures stack)
 add_algorithm(data_structures queue)
+add_algorithm(graph mst)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -54,5 +55,6 @@ add_dsa_test(data_structures union_find)
 add_dsa_test(data_structures linked_list)
 add_dsa_test(data_structures stack)
 add_dsa_test(data_structures queue)
+add_dsa_test(graph mst)
 
 enable_testing()
