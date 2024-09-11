@@ -21,7 +21,7 @@ To get started with this project, clone the repository and ensure you have the f
 - Git (for cloning the repository and fetching Google Test)
 
 ```bash
-git clone https://github.com/yourusername/DSA_Project.git
+git clone https://github.com/MaciejGrzybacz/DSA_Project.git
 cd DSA_Project
 mkdir build && cd build
 cmake ..
@@ -41,6 +41,7 @@ DSA_Project/
 │       ├── dijkstra.h/cpp
 │       ├── search.h/cpp
 │       ├── topological_sort.h/cpp
+│       ├── mst.h/cpp
 │   ├── sorting/
 │       └── sort.h/cpp
 │   ├── string_algorithms/
@@ -55,6 +56,7 @@ DSA_Project/
 │       ├── dijkstra_test.cpp
 │       ├── search_test.cpp
 │       ├── topological_sort_test.cpp
+│       ├── mst_test.cpp
 │   ├── sorting/
 │       ├── sort_test.cpp
 │   ├── string_algorithms/
@@ -82,10 +84,14 @@ Currently, the project includes the following implementations:
 ### Algorithms
 - Graph
     - Dijkstra's Algorithm
-    - Breadth-First Search (BFS)
-    - Iterative Depth-First Search (DFS)
-    - Recursive Depth-First Search (DFS)
+    - Graph Search
+        - Breadth-First Search (BFS)
+        - Iterative Depth-First Search (DFS)
+        - Recursive Depth-First Search (DFS)
     - Topological Sort
+    - Minimum Spanning Tree (MST)
+        - Prim's Algorithm
+        - Kruskal's Algorithm
 - Sorting
     - Bubble Sort
     - Quick Sort
@@ -104,8 +110,6 @@ Currently, the project includes the following implementations:
 ### Algorithms
 
 #### Graph Algorithms
-- Kruskal's Algorithm
-- Prim's Algorithm
 - Tarjan's Algorithm
 - Strongly Connected Components (SCC)
 - Bellman-Ford Algorithm
