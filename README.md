@@ -38,10 +38,8 @@ DSA_Project/
 ├── src/
 │   ├── dynamic_programming/
 │   ├── graph/
-│       ├── dijkstra.h/cpp
-│       ├── search.h/cpp
-│       ├── topological_sort.h/cpp
-│       ├── mst.h/cpp
+│       ├── unweighted_graph.h/cpp
+│       ├── weighted_graph.h/cpp
 │   ├── sorting/
 │       └── sort.h/cpp
 │   ├── string_algorithms/
@@ -53,10 +51,8 @@ DSA_Project/
 ├── tests/
 │   ├── dynamic_programming/
 │   ├── graph/
-│       ├── dijkstra_test.cpp
-│       ├── search_test.cpp
-│       ├── topological_sort_test.cpp
-│       ├── mst_test.cpp
+│       ├── unweighted_graph_test.cpp
+│       ├── weighted_graph_test.cpp
 │   ├── sorting/
 │       ├── sort_test.cpp
 │   ├── string_algorithms/
@@ -83,21 +79,26 @@ Currently, the project includes the following implementations:
 
 ### Algorithms
 - Graph
-    - Dijkstra's Algorithm
+  - Unweighted_graph
     - Graph Search
-        - Breadth-First Search (BFS)
-        - Iterative Depth-First Search (DFS)
-        - Recursive Depth-First Search (DFS)
-    - Topological Sort
+      - Breadth-First Search (BFS)
+      - Iterative Depth-First Search (DFS)
+      - Recursive Depth-First Search (DFS)
+     - Topological Sort
+  - Weighted_graph
+    - Dijkstra's Algorithm
     - Minimum Spanning Tree (MST)
-        - Prim's Algorithm
-        - Kruskal's Algorithm
+    - Prim's Algorithm
+    - Kruskal's Algorithm
 - Sorting
-    - Bubble Sort
-    - Quick Sort
-    - Merge Sort
-    - Heap Sort
-    - Bucket Sort
+  - Bubble Sort
+  - Quick Sort
+  - Merge Sort
+  - Heap Sort
+  - Bucket Sort
+- String
+  - LCS
+  - LPS
 
 ### Data Structures
 - Disjoint Set (Union-Find)
@@ -132,8 +133,6 @@ Currently, the project includes the following implementations:
 - Knuth-Morris-Pratt (KMP) Algorithm
 - Rabin-Karp Algorithm
 - Boyer-Moore Algorithm
-- Longest Common Substring
-- Longest Palindromic Substring
 - Levenshtein Distance (Edit Distance)
 - Suffix Array and LCP Array
 
