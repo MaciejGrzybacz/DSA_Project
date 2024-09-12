@@ -23,14 +23,14 @@ function(add_algorithm group name)
 endfunction()
 
 ## Add algorithms here
-add_algorithm(graph search)
-add_algorithm(graph dijkstra)
+add_algorithm(graph weighted_graph)
+add_algorithm(graph unweighted_graph)
 add_algorithm(sorting sort)
-add_algorithm(graph topological_sort)
 add_algorithm(data_structures union_find)
 add_algorithm(data_structures linked_list)
 add_algorithm(data_structures stack)
 add_algorithm(data_structures queue)
+add_algorithm(string algorithms)
 
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
@@ -46,13 +46,12 @@ function(add_dsa_test group name)
 endfunction()
 
 ## Add tests here
-add_dsa_test(graph search)
-add_dsa_test(graph dijkstra)
-add_dsa_test(sorting sort)
-add_dsa_test(graph topological_sort)
+add_dsa_test(graph weighted_graph)
+add_dsa_test(graph unweighted_graph)
 add_dsa_test(data_structures union_find)
 add_dsa_test(data_structures linked_list)
 add_dsa_test(data_structures stack)
 add_dsa_test(data_structures queue)
+add_dsa_test(string algorithms)
 
 enable_testing()
