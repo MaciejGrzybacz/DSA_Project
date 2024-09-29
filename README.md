@@ -88,8 +88,8 @@ Currently, the project includes the following implementations:
   - Weighted_graph
     - Dijkstra's Algorithm
     - Minimum Spanning Tree (MST)
-    - Prim's Algorithm
-    - Kruskal's Algorithm
+      - Prim's Algorithm
+      - Kruskal's Algorithm
 - Sorting
   - Bubble Sort
   - Quick Sort
